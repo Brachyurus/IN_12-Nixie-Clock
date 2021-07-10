@@ -152,7 +152,7 @@ void loop() {
     }
   }
 
-  if (twitchState && currentMillis - prevSecondMillis >= 1000 - (twitchDelay + 3) * 21) {
+  if (twitchState && currentMillis - prevSecondMillis >= 1000 - (twitchDelay + 4) * 21) {
     twitchState = false;
     DoTheTwitch();
   }
